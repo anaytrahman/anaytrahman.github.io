@@ -1,6 +1,7 @@
 import myPic1 from './../../assets/images/ar.jpg';
 // import './../../assets/styles/Styles.css';
  import './../../assets/styles/Styles.scss';
+
 const MeetMe = () => {
     return (
       <>

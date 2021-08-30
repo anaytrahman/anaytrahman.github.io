@@ -8,8 +8,6 @@
 }
 
 .main-container {
-
-   
         .heading-wrapper {
             
             .meetMe {
@@ -24,8 +22,6 @@
     
 
     .details-section {
-       // width: 72%;
-        //position: absolute;
         left: 13%;
       //  background-color: /*rgb(228, 215, 215)*/ rgb(29, 29, 29 / 63%);
         display: flex;  
@@ -158,4 +154,93 @@
             font-weight: bold;
           
 }
+}
+
+.anayt{
+   
+    margin: 0 2px;
+}
+
+///responsive
+
+@media screen and (max-width:1020px){
+    .main-container{
+        .details-section {
+            flex-direction: column-reverse;
+            .contact-wrapper {
+                
+              
+            }
+            .dp-img-wrapper {
+                width: 100%;
+            }
+            .personal-details-wrapper {
+                width: 100%;
+               
+            }
+            .name{
+                text-align: center;
+            }.main-container .details-section .contact-wrapper { 
+                padding-left: 6rem;
+            }
+        }
+    }
+  
+}
+
+//720
+
+@media screen and(max-width: 720px){
+    .main-container .details-section .intro p {
+        font-size: 17px;
+    }
+    .main-container .dashboard-container .box-wrapper {
+        display: block;
+        padding: 4px;
+        .boxes {
+            width: 81%;
+            .icons-wrapper {
+                max-width: 44px;
+                svg {
+                    font-size: 36px;
+                    
+                }
+            }
+           
+        }
+    }
+    
+}
+
+//
+@media screen and(max-width: 580px){
+    .main-container{
+        .details-section{
+
+         .contact-wrapper {
+            .social {
+              
+                font-size: 9px;
+            }
+            .contact {
+               font-size: 17px;
+              
+            }
+           
+         }
+        }
+       
+    }
+}
+
+@media screen and(max-width: 320px){
+    .main-container{
+        .details-section{
+            .personal-details-wrapper{
+                .name {
+                    font-size: 28px;
+                }
+            }
+        }
+    }  
 }
