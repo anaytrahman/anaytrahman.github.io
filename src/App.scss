@@ -8,7 +8,7 @@
   $padding-2rem: 2rem;
   $radius-4px: 4px;
 .header, footer {
-    background: $baseColor;
+    background: #2725b4a6;
     padding: 17px 9px;
     color: white;
 }
@@ -99,23 +99,3 @@
 }
 
 
-///responsive
-
-@media screen and (max-width:1020px){
-    .main-container .details-section {
-        display: block;
-        .dp-img-wrapper {
-            width: 100%;
-        }
-        .personal-details-wrapper {
-            width: 100%;
-           
-        }
-        .name{
-            text-align: center;
-        }.main-container .details-section .contact-wrapper {
-           
-            padding-left: 6rem;
-        }
-    }
-}

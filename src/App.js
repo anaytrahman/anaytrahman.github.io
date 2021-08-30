@@ -1,5 +1,6 @@
 
 import './App.scss';
+
 import MeetMe from './components/meet-me/MeetMe';
 import Header from './components/shared/header/Header';
 import Dashboard from './components/dashboard/Dashboard';
@@ -11,11 +12,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <AboutMe />
+      {/* <AboutMe /> */}
       <div className="main-container">
-      <Dashboard />
+     
         <MeetMe />
+       
         <MySkils />
+        <Dashboard />
       
 
       </div>
