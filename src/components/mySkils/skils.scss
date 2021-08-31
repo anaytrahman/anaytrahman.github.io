@@ -17,10 +17,15 @@
     height: 35px
   }
 
-  .html {width: 90%; background-color: #04AA6D;}
-  .css {width: 80%; background-color: #2196F3;}
-  .js {width: 65%; background-color: #f44336;}
-  .php {width: 60%; background-color: #808080;}
+  .top {width: 90%; background-color: #04AA6D;}
+  .best {width: 80%; background-color: #008905;}
+  .good {width: 70%; background-color: #795548;}
+  .average {width: 60%; background-color: #808080;}
+  .learning {width: 50%; background-color: #d31694;}
+  .idea {width: 40%; background-color: #b90808;}
   //
-
+    p{
+      font-weight: 500;
+      font-size: 23px;
+    }
 }

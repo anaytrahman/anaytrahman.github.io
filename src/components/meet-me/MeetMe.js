@@ -14,7 +14,7 @@ const MeetMe = () => {
                 <div className="personal-details-wrapper ">
                     <div className="intro">
                      
-                        <h2 className="name text-center-res ">ANAYT RAHMAN</h2>
+                        <h2 className="name text-center-res ">HI.. I AM ANAYT RAHMAN</h2>
                         <h4 className="education text-center clr-effect-text"> JUNIOR UI/UX DEVELOPER</h4>
                         <p className="about text-center-res">I am working with technologies like <strong>ReactJS</strong>, Angular,  <strong>JavaScript</strong>,  <strong>HTML5</strong>,  <strong>CSS3</strong>, <strong>Bootstrap</strong>, <strong> Material-Ui </strong>
                          and also tools below:
@@ -31,7 +31,7 @@ const MeetMe = () => {
                             <a className="socl-link twiter" href="https://twitter.com/imAnayt?s=09" target="_blank"><i className="fab fa-twitter socl-icon"></i></a>
                             <a className="socl-link linkedin" href="https://www.linkedin.com/in/anaytrahman" target="_blank"><i className="fab fa-linkedin socl-icon"></i></a>
                             <a className="socl-link insta" href="https://www.instagram.com/anayt.rahman/" target="_blank"><i className="fab fa-instagram-square socl-icon"></i></a>
-                            <a className="socl-link github" href="https://www.instagram.com/anayt.rahman/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a className="socl-link github" href="https://github.com/anaytrahman" target="_blank"><i class="fab fa-github"></i></a>
                         </div>
                     </div>
 
